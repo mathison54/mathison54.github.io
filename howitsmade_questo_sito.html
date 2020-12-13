@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./style.css" type="text/css" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+		</style>
+		<title>Mathison54's Blog</title>
+	</head>	
+
+	<body>
+		<div class="Bg-color">
+			<div id="MainContainer">
+				<nav class="NavBar">
+					<a href="https://www.mathison54.com/index.html">
+						<img class="logo" src="favicon.png" alt="myLogo" />
+						<strong style="font: 1.3em monospace; font-weight: 600; padding: 0 0 0 0.5rem;"> 
+							Mathison54's Blog
+						</strong>
+					</a>
+					<div class="NavSel">
+						<span class="NavElem"> <a target="_blank" href="https://twitter.com/mathison54">Twitter</a> </span>
+						<span class="NavElem"> <a target="_blank" href="https://github.com/mathison54">GitHub</a> </span>
+						<span class="NavElem"> <a target="_blank" href="https://www.mathisonlab.com">English</a> </span>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</body>
+	
+<h1 id="Come%20farsi%20un%20sito%20in%20Shell%20scripting%20(come%20questo)">Come farsi un sito in Shell scripting (come questo)</h1>
+
+<p>Poteva essere fatto peggio questo sito, ammettiamolo. Ci si poteva ritrovare con <a href="http://www.arngren.net/">qualcosa del genere</a> insomma - anche se, dalla mia prospettiva, ha il suo perche&#8217;.</p>
+
+<p>Certo avrei potuto spendere qualche ora in piu&#8217; su CSS e framework vari per cercare di tirar fuori una pagina gradevole all&#8217; utente, qualcosa di altamente leggibile e stilisticamente eccelso.<br/>
+Questa opzione (che comunque ho perseguito <a href="https://www.mathisonlab.com">in qualche modo</a>) presentava pero&#8217; alcune problematiche:</p>
+
+<ol start="1">
+<li>Sono troppo indeciso, finito un design vado in fissa con un altro.</li>
+<li>Mi sono posto il problema del perche&#8217; avere un sito cosi pesante se poi devo fondamentalmente riportare testo.</li>
+<li>Meglio partire piuttosto che star li a strizzarsi le meningi sui dettagli.</li>
+</ol>
+
+<p>Tre giustificazioni abbastanza semplici dopotutto, non c&#39;e&#8217; molta filosofia.</p>
+
+<p>Ma bando alle ciance - non ho mai amato quei siti che la tirano troppo per le lunghe - e proseguiamo verso la ciccia: come farsi sto benedetto sito in Shell scripting.</p>
+
+<h2 id="Shell%20Script">Shell Script</h2>
+
+<p>Questo sito e&#8217; fatto in Shell scripting, utilizzando lo script <a href="https://www.romanzolotarev.com/ssg.html">ssg5 di Roman Zolotarev</a>. Lo script e&#8217; pensato per BSD (e quindi Mac OS), ma chiaramente gira con tranquillita&#8217; su Linux - suppongo anche Bash in Windows, ma non ho testato.<br/>
+Di seguito ne riporto i passaggi, che sono praticamente la replica di quelli del buon Roman:</p>
+
+<h3 id="Installazione">Installazione</h3>
+
+<pre><code class="language-sh">mkdir -p bin
+curl -s https:&#47;&#47;rgz.ee&#47;bin&#47;ssg5 &#62; bin&#47;ssg5
+curl -s https:&#47;&#47;rgz.ee&#47;bin&#47;Markdown.pl &#62; bin&#47;Markdown.pl
+chmod +x bin&#47;ssg5 bin&#47;Markdown.pl
+</code></pre>
+
+<p>In realta&#8217; il passaggio su Markdown.pl e&#8217; opzionale se preferite installare <a href="https://kristaps.bsd.lv/lowdown/lowdown.5.html">LOWDOWN</a> - io ho scelto questa seconda via.</p>
+
+<h3 id="Utilizzo">Utilizzo</h3>
+
+<pre><code class="language-sh">mkdir src dst
+echo &#39;# Hello, World!&#39; &#62; src&#47;index.md
+echo &#39;&#60;html&#62;&#60;title&#62;&#60;&#47;title&#62;&#39; &#62; src&#47;_header.html
+bin&#47;ssg5 src dst &#39;Test&#39; &#39;http:&#47;&#47;www&#39;
+</code></pre>
+
+<p>A questo punto aprite index.html con Firefox o qualunque sia il vostro browser di riferimento.</p>
+<footer style="margin-top: 3rem; margin-bottom: 1rem;">
+</footer>
