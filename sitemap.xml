@@ -2,38 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mathison54.github.io/about/</loc>
+    <loc>https://chickenbits.xyz/about/</loc>
     <lastmod>2023-06-11T20:15:58+02:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/testsection/test-cjk/</loc>
-    <lastmod>2022-08-26T22:30:10+08:00</lastmod>
+    <loc>https://chickenbits.xyz/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/testsection/</loc>
-    <lastmod>2022-08-26T22:30:10+08:00</lastmod>
+    <loc>https://chickenbits.xyz/tags/hugo/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/posts/</loc>
-    <lastmod>2022-08-26T22:29:10+08:00</lastmod>
+    <loc>https://chickenbits.xyz/posts/install-hugo-on-mac-os/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/posts/test-highlight/</loc>
-    <lastmod>2022-08-26T22:29:10+08:00</lastmod>
+    <loc>https://chickenbits.xyz/posts/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/posts/test-tex/</loc>
-    <lastmod>2022-08-26T22:28:10+08:00</lastmod>
+    <loc>https://chickenbits.xyz/tags/sample/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/</loc>
-    <lastmod>2022-08-25T21:30:04+08:00</lastmod>
+    <loc>https://chickenbits.xyz/tags/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/posts/2020-07-08-language-tests/</loc>
-    <lastmod>2020-07-08T00:00:00+08:00</lastmod>
+    <loc>https://chickenbits.xyz/tags/css/</loc>
+    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/posts/2020-07-07-overview-post/</loc>
-    <lastmod>2020-07-07T00:00:00+08:00</lastmod>
+    <loc>https://chickenbits.xyz/tags/html/</loc>
+    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/testsection/2020-07-06-strange-post/</loc>
-    <lastmod>2020-07-06T00:00:00+08:00</lastmod>
+    <loc>https://chickenbits.xyz/tags/markdown/</loc>
+    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/categories/</loc>
+    <loc>https://chickenbits.xyz/posts/markdown-syntax/</loc>
+    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mathison54.github.io/tags/</loc>
+    <loc>https://chickenbits.xyz/posts/example-content/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chickenbits.xyz/posts/rich-content/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chickenbits.xyz/tags/emoji/</loc>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chickenbits.xyz/posts/emoji-support/</loc>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chickenbits.xyz/about/</loc>
+  </url><url>
+    <loc>https://chickenbits.xyz/pages/</loc>
   </url>
 </urlset>
